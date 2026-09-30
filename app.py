@@ -1,4 +1,3 @@
-```python
 """
 GreenLoop – Smart Reusable Packaging Platform for E-Commerce Logistics
 
