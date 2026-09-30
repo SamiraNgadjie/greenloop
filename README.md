@@ -86,8 +86,10 @@ Username: demo
 Password: demo123
 
 Prototype Scope
+
 The current prototype demonstrates the digital lifecycle-management logic of GreenLoop.
 It currently includes:
+
 - package identification
 - package status management
 - lifecycle event history
@@ -95,7 +97,9 @@ It currently includes:
 - package search
 - basic data export
 - simulated shipment and return events
+
 The current version does not include:
+
 - physical QR-code scanning
 - RFID integration
 - IoT hardware
@@ -105,9 +109,13 @@ The current version does not include:
 - production cloud infrastructure
 - validated lifecycle assessment
 - validated environmental-impact calculations
+
 These functionalities represent potential future development stages.
+
 Future Development
+
 Potential future development of GreenLoop could include:
+
 - QR-code or RFID-based identification
 - integration with retailer ERP systems
 - integration with logistics and parcel-carrier systems
@@ -116,8 +124,11 @@ Potential future development of GreenLoop could include:
 - packaging-agnostic interoperability
 - advanced fleet analytics
 - validated environmental-performance indicators
+
 Academic Project
+
 GreenLoop – Smart Reusable Packaging Platform for E-Commerce Logistics
+
 Hochschule Bremerhaven
 GreenTech Project
 Project Team:
