@@ -11,8 +11,6 @@ already has an admin panel for orders or inventory.
 
 Getting Started with GreenLoop
 
-This guide is written for users with no programming experience. Follow the steps in order. You do not need to understand the code to run or demonstrate the application.
-
 ⸻
 
 Before You Start
@@ -103,7 +101,7 @@ cd Desktop
 
 Then download the GreenLoop project:
 
-git clone https://github.com/yvonndjamen/greenloop.git
+git clone https://github.com/SamiraNgadjie/greenloop.git
 
 Move into the project folder:
 
@@ -249,47 +247,6 @@ You should see the new package and updated metrics.
 
 ⸻
 
-Quick Demo Flow
-
-For the school presentation, you can use this simple sequence:
-
-Before the presentation
-
-Make sure:
-
-* Git is installed
-* Python is installed
-* GreenLoop has been cloned
-* The virtual environment has been created
-* Dependencies have been installed
-
-On the day of the presentation
-
-Open Command Prompt/Terminal and go to the project:
-
-cd Desktop\greenloop
-
-Activate the environment:
-
-.venv\Scripts\activate
-
-Start the application:
-
-python app.py
-
-Then open:
-
-http://localhost:5000
-
-Log in with:
-
-Username: demo
-Password: demo123
-
-You can then demonstrate the dashboard, open a package, show its lifecycle, and simulate a package being shipped or returned.
-
-⸻
-
 Important
 
 When you are finished with the demo, go back to the Command Prompt/Terminal where the application is running and press:
@@ -338,7 +295,7 @@ This allows the complete package lifecycle to be demonstrated without requiring 
 
 ## Key Features
 
-CHECKED Login System - Secure authentication with password hashing
+CHECKED Login System - Secure authentification with password hashing
 CHECKED Package Tracking - Simulated QR scanning via URL hits
 CHECKED Dashboard - Real-time KPI metrics and package overview
 CHECKED Package Lifecycle - Visual timeline of all status changes
@@ -361,7 +318,7 @@ CHECKED Form Validation - Client-side and server-side validation
 
 ---
 
-## Features Explained for Students
+## Features Explained
 
 ### 1. Simulated QR Scanning
 - **Location:** app.py - scan_package() route (/scan/<id>)
@@ -450,7 +407,7 @@ Students will learn:
 | Username | demo |
 | Password | demo123 |
 
-### How Authentication Works
+### How Authentification Works
 - Passwords are hashed using **Werkzeug's generate_password_hash** (scrypt algorithm)
 - Hashes are stored in data/users.json
 - If the file is missing, the app auto-creates it on startup with demo / demo123
@@ -581,20 +538,7 @@ The code is intentionally simple for student presentations:
 - **Template-based** - HTML templates are readable and modifiable
 - **Comments in key places** - Explain WHY, not WHAT
 
-This makes it easy to explain, modify, and extend during presentations.
-
----
-
-## Presentation Tips
-
-When presenting this project, focus on:
-
-1. **User Flow** - Login → Dashboard → Package Details → QR Scan
-2. **Data Model** - How packages and their history are stored
-3. **Status Machine** - States and valid transitions
-4. **UI/UX** - Card layouts, colors, responsiveness
-5. **API Design** - How endpoints serve data to the frontend
-6. **Scalability** - What would need to change for a real system (database, authentication)
+This makes it easy to explain, modify, and extend.
 
 ---
 
@@ -629,16 +573,6 @@ Stores packages with event history:
 ---
 
 ## Security Notes
-
-**For Educational Use Only**
-
-- Session secret key is hardcoded (change in production)
-- Passwords stored with hash (good)
-- No HTTPS/TLS (use in production)
-- No rate limiting on login (add in production)
-- CSRF protection not implemented (Flask can add this)
-- No input sanitization (add HTML escaping in production)
-
 ---
 
 **Happy learning!**
