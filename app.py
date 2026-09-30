@@ -1,6 +1,9 @@
+```python
 """
-GreenLoop - Reusable Packaging Tracking Platform
-A simple Flask application for tracking reusable packages and their environmental impact
+GreenLoop – Smart Reusable Packaging Platform for E-Commerce Logistics
+
+Flask prototype for the digital lifecycle management of reusable
+packaging in e-commerce logistics.
 """
 
 from flask import Flask, render_template, request, redirect, url_for, session, jsonify, send_file
