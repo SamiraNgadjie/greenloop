@@ -131,8 +131,11 @@ GreenLoop – Smart Reusable Packaging Platform for E-Commerce Logistics
 
 Hochschule Bremerhaven
 GreenTech Project
+
 Project Team:
 - Samira Yvana Ngadjie
 - Trecy Diana Noumbo Nanfack
+
 Disclaimer
+
 GreenLoop is currently an academic prototype. The operational, economic, and environmental viability of the concept would need to be validated through a real-world pilot implementation
